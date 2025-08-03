@@ -34,6 +34,15 @@
             #binding-cells = <0>;
             bindings = <&kp LEFT_SHIFT>, <&kp CAPS>;
         };
+
+        HM: HM {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HM";
+            bindings = <&kp>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+        };
     };
 
     rgb_encoder: rgb_encoder {
@@ -66,6 +75,11 @@
         s2 {
             bindings = <&kp NUMBER_2>;
             key-positions = <16 17>;
+        };
+
+        rightblanket {
+            bindings = <&kp RIGHT_PARENTHESIS>;
+            key-positions = <24 25>;
         };
     };
 
