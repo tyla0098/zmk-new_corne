@@ -57,6 +57,16 @@
             bindings = <&kp LEFT_PARENTHESIS>;
             key-positions = <22 23>;
         };
+
+        S1 {
+            bindings = <&kp NUMBER_1>;
+            key-positions = <14 15>;
+        };
+
+        s2 {
+            bindings = <&kp NUMBER_2>;
+            key-positions = <16 17>;
+        };
     };
 
     keymap {
