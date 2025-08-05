@@ -260,7 +260,7 @@ combos:
   k: Ctl+V
 - p: [30, 31, 32]
   k: Alt+Ctl+V
-- p: [18, 17]
+- p: [0, 12]
   k: Gui+Sft+S
 - p: [29, 30]
   k: Ctl+X
