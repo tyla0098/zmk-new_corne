@@ -64,7 +64,7 @@
 
         blanket {
             bindings = <&kp LEFT_PARENTHESIS>;
-            key-positions = <22 23>;
+            key-positions = <23 24>;
         };
 
         S1 {
