@@ -15,19 +15,19 @@ layers:
   - P
   - {t: '$$mdi:backspace$$', type: backspace}
   - '&td0'
-  - A
-  - S
-  - D
-  - F
+  - {t: A, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: S, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: D, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: F, h: '$$mdi:apple-keyboard-control$$'}
   - G
   - $$mdi:arrow-left-bold$$
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:arrow-right-bold$$
   - H
   - {t: J, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: K, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: K, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: L, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: ;, h: '$$mdi:apple-keyboard-shift$$', s: ':'}
+  - {t: ;, h: '$$mdi:apple-keyboard-command$$', s: ':'}
   - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-control$$
   - Z
@@ -260,7 +260,7 @@ combos:
   k: Ctl+V
 - p: [30, 31, 32]
   k: Alt+Ctl+V
-- p: [0, 12]
+- p: [0, 28]
   k: Gui+Sft+S
 - p: [29, 30]
   k: Ctl+X
