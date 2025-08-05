@@ -96,6 +96,11 @@
             bindings = <&kp LA(LC(V))>;
             key-positions = <30 31 32>;
         };
+
+        screencap {
+            bindings = <&kp LG(LS(S))>;
+            key-positions = <18 17>;
+        };
     };
 
     keymap {
