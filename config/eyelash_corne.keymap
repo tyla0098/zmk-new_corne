@@ -102,6 +102,11 @@
             bindings = <&kp LG(LS(S))>;
             key-positions = <18 17>;
         };
+
+        cut {
+            bindings = <&kp LC(X)>;
+            key-positions = <29 30>;
+        };
     };
 
     keymap {
@@ -164,6 +169,7 @@
             >;
 
             sensor-bindings = <&inc_dec_kp 0 0>;
+            label = "pad";
         };
     };
 };
