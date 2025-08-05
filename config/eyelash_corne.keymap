@@ -100,7 +100,7 @@
 
         screencap {
             bindings = <&kp LG(LS(S))>;
-            key-positions = <18 17>;
+            key-positions = <0 12>;
         };
 
         cut {
