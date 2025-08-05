@@ -81,6 +81,21 @@
             bindings = <&kp RIGHT_PARENTHESIS>;
             key-positions = <24 25>;
         };
+
+        copy {
+            bindings = <&kp LC(C)>;
+            key-positions = <30 31>;
+        };
+
+        paste {
+            bindings = <&kp LC(V)>;
+            key-positions = <31 32>;
+        };
+
+        valuepaste {
+            bindings = <&kp LA(LC(V))>;
+            key-positions = <30 31 32>;
+        };
     };
 
     keymap {
