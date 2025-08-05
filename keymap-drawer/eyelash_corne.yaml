@@ -43,7 +43,7 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - $$mdi:keyboard-esc$$
-  - {t: '$$mdi:apple-keyboard-command$$', h: numpad}
+  - {t: '$$mdi:apple-keyboard-command$$', h: pad}
   - {t: '$$mdi:keyboard-space$$', h: NUMBER}
   - {t: '$$mdi:keyboard-return$$', h: Fn}
   - {t: '$$mdi:keyboard-return$$', h: Fn}
@@ -196,7 +196,7 @@ layers:
   - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  numpad:
+  pad:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:arrow-up-bold$$
@@ -262,3 +262,5 @@ combos:
   k: Alt+Ctl+V
 - p: [18, 17]
   k: Gui+Sft+S
+- p: [29, 30]
+  k: Ctl+X
