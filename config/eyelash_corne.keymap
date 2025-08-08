@@ -77,11 +77,6 @@
     combos {
         compatible = "zmk,combos";
 
-        blanket {
-            bindings = <&kp LEFT_PARENTHESIS>;
-            key-positions = <23 24>;
-        };
-
         S1 {
             bindings = <&kp NUMBER_1>;
             key-positions = <14 15>;
@@ -90,11 +85,6 @@
         s2 {
             bindings = <&kp NUMBER_2>;
             key-positions = <16 17>;
-        };
-
-        rightblanket {
-            bindings = <&kp RIGHT_PARENTHESIS>;
-            key-positions = <24 25>;
         };
 
         copy {
@@ -130,6 +120,46 @@
         four {
             bindings = <&kp NUMBER_4>;
             key-positions = <14 16 17 15>;
+        };
+
+        five {
+            bindings = <&kp N5>;
+            key-positions = <3 4>;
+        };
+
+        six {
+            bindings = <&kp NUMBER_6>;
+            key-positions = <25 26>;
+        };
+
+        seven {
+            bindings = <&kp N7>;
+            key-positions = <23 24>;
+        };
+
+        eight {
+            bindings = <&kp N8>;
+            key-positions = <24 25 26>;
+        };
+
+        nine {
+            bindings = <&kp N9>;
+            key-positions = <23 24 25 26>;
+        };
+
+        zero {
+            bindings = <&kp N0>;
+            key-positions = <8 9>;
+        };
+
+        rightblanket {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <37 38>;
+        };
+
+        leftblanket {
+            bindings = <&kp RIGHT_PARENTHESIS>;
+            key-positions = <39 40>;
         };
     };
 
