@@ -121,6 +121,16 @@
             bindings = <&kp LC(X)>;
             key-positions = <29 30>;
         };
+
+        three {
+            bindings = <&kp NUMBER_3>;
+            key-positions = <14 15 16>;
+        };
+
+        four {
+            bindings = <&kp NUMBER_4>;
+            key-positions = <14 16 17 15>;
+        };
     };
 
     keymap {
