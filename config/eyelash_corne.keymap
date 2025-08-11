@@ -159,7 +159,7 @@
 
         leftblanket {
             bindings = <&kp RIGHT_PARENTHESIS>;
-            key-positions = <39 40>;
+            key-positions = <39 38>;
         };
     };
 
